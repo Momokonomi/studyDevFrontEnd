@@ -1,3 +1,22 @@
+# このリポジトリについて
+
+フロントエンド開発の手法や考え、知識を身に着ける学習用リポジトリ
+■目標
+
+- NextJs・Reactの基礎を学習し、公式ドキュメントから適切な機能を探すことができる
+- フロントエンドとバックエンドの設計思想を違いを述べることができるようにする
+- Youtubeなどのユーザー向けアプリケーションのUIや企業HPのようなホームページを作成できるようになる
+- +α セキュリティやメモリ・ブラウザについて学べれば
+
+■流れ
+
+1. 最終ゴールを設定 -> Youtubeのホーム画面を作成する
+2. NextJSを用いた開発について学ぶ(機能や設計思想)
+3. 2で学習したことを基にYoutubeのホーム画面を作成
+4. 作成物のフィードバック（UIやセキュリティ・テスト）
+
+# NextJsについて
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
