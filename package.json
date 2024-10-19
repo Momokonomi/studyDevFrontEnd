@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update:response": "curl -X POST stub:8080/__admin/mappings/reset"
   },
   "dependencies": {
     "next": "14.2.15",
