@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "update:response": "curl -X POST stub:8080/__admin/mappings/reset"
+    "test": "jest",
+    "reload:response": "curl -X POST stub:8080/__admin/mappings/reset"
   },
   "dependencies": {
     "next": "14.2.15",
@@ -23,6 +24,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-test-renderer": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5",
     "eslint": "^8.57.1",
