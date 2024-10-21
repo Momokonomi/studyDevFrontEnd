@@ -1,4 +1,4 @@
-import svgWrapper from '../svgFormat';
+import svgWrapper from '../svgWrapper';
 
 /**
  * ハンバーガーアイコン

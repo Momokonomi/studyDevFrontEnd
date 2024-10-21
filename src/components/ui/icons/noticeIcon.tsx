@@ -1,4 +1,4 @@
-import svgWrapper from '../svgFormat';
+import svgWrapper from '../svgWrapper';
 
 export default function NoticeIcon() {
   return svgWrapper(() => {
