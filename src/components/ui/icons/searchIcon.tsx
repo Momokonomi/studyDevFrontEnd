@@ -1,13 +1,8 @@
+import svgWrapper from '../svgFormat';
+
 export default function SearchIcon() {
-  return (
-    <div
-      style={{
-        width: '100px',
-        height: '100px',
-        display: 'block',
-        fill: 'currentcolor',
-      }}
-    >
+  return svgWrapper(() => {
+    return (
       <svg
         xmlns='http://www.w3.org/2000/svg'
         fill='currentColor'
@@ -24,6 +19,6 @@ export default function SearchIcon() {
           fill-rule='evenodd'
         ></path>
       </svg>
-    </div>
-  );
+    );
+  });
 }

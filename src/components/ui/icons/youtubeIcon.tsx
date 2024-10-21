@@ -1,13 +1,8 @@
+import svgWrapper from '../svgFormat';
+
 export default function YoutubeIcon() {
-  return (
-    <div
-      style={{
-        width: '100px',
-        height: '100px',
-        display: 'block',
-        fill: 'currentcolor',
-      }}
-    >
+  return svgWrapper(() => {
+    return (
       <svg
         xmlns='http://www.w3.org/2000/svg'
         id='yt-logo-updated-svg_yt8'
@@ -46,6 +41,6 @@ export default function YoutubeIcon() {
           </g>
         </svg>
       </svg>
-    </div>
-  );
+    );
+  });
 }
