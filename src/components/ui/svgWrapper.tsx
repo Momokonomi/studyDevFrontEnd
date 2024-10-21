@@ -9,15 +9,17 @@ export default function svgWrapper(
   callbk: () => React.ReactNode,
 ): React.ReactNode {
   return (
-    <div
-      style={{
-        width: '100%',
-        height: '100%',
-        display: 'block',
-        fill: 'currentcolor',
-      }}
-    >
-      {callbk()}
+    <div className='minu'>
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          display: 'block',
+          fill: 'currentcolor',
+        }}
+      >
+        {callbk()}
+      </div>
     </div>
   );
 }
