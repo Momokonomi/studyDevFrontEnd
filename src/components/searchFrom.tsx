@@ -1,4 +1,4 @@
-import SearchIcon from './icons/searchIcon';
+import SearchIcon from './ui/icons/searchIcon';
 
 export default function SearchForm() {
   return (

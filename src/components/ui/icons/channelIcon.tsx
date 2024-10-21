@@ -1,4 +1,4 @@
-import icon from '../../static/images/channelIcon.jpg';
+import icon from '../../../app/public/images/channelIcon.jpg';
 
 export default function ChannelIcon() {
   return (
