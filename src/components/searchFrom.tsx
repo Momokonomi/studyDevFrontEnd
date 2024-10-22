@@ -1,11 +1,13 @@
-import SearchIcon from './ui/icons/searchIcon';
+import SearchIcon from '../public/icons/searchIcon';
 
 export default function SearchForm() {
   return (
     <>
-      <SearchIcon />
-      <input type='search' placeholder='検索' />
-      <SearchIcon />
+      <div>
+        <SearchIcon />
+        <input type='search' placeholder='検索' />
+        <SearchIcon />
+      </div>
     </>
   );
 }

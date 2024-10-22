@@ -1,4 +1,4 @@
-import svgWrapper from '../svgWrapper';
+import svgWrapper from '../../components/ui/svgWrapper';
 
 export default function SubmitMovieIcon() {
   return svgWrapper(() => {

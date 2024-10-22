@@ -1,14 +1,17 @@
-import HamburgerIcon from './ui/icons/hamburgerIcon';
-import YoutubeIcon from './ui/icons/youtubeIcon';
+import HamburgerIcon from '../public/icons/hamburgerIcon';
+import YoutubeIcon from '../public/icons/youtubeIcon';
 import SearchForm from './searchFrom';
-import SoundSearchIcon from './ui/icons/soundSearchIcon';
-import SubmitMovieIcon from './ui/icons/submitMovieIcon';
-import NoticeIcon from './ui/icons/noticeIcon';
-import ChannelIcon from './ui/icons/channelIcon';
+import SoundSearchIcon from '../public/icons/soundSearchIcon';
+import SubmitMovieIcon from '../public/icons/submitMovieIcon';
+import NoticeIcon from '../public/icons/noticeIcon';
+import ChannelIcon from '../public/icons/channelIcon';
+import Button from './ui/buttons/button';
 export default function Header() {
   return (
     <header>
-      <HamburgerIcon />
+      <Button>
+        <HamburgerIcon />
+      </Button>
       <YoutubeIcon />
       <SearchForm />
       <SoundSearchIcon />
