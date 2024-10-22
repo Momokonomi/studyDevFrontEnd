@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "tcm": "tcm src",
     "lint": "next lint",
     "test": "jest",
     "reload:response": "curl -X POST stub:8080/__admin/mappings/reset"
@@ -35,9 +36,9 @@
     "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.3.3",
     "react-test-renderer": "^18.3.1",
-    "sass": "^1.80.3",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
+    "typed-css-modules": "^0.9.1",
     "typescript": "^5"
   }
 }
