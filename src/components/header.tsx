@@ -5,19 +5,32 @@ import SoundSearchIcon from '../public/icons/soundSearchIcon';
 import SubmitMovieIcon from '../public/icons/submitMovieIcon';
 import NoticeIcon from '../public/icons/noticeIcon';
 import ChannelIcon from '../public/icons/channelIcon';
-import Button from './ui/buttons/button';
+import Button from './ui/button/button';
 export default function Header() {
   return (
     <header>
       <Button>
         <HamburgerIcon />
       </Button>
-      <YoutubeIcon />
-      <SearchForm />
-      <SoundSearchIcon />
-      <SubmitMovieIcon />
-      <NoticeIcon />
-      <ChannelIcon />
+      <Button>
+        <YoutubeIcon />
+      </Button>
+      <Button>
+        <SearchForm />
+      </Button>
+      <Button>
+        <SoundSearchIcon />
+      </Button>
+      <Button>
+        <SubmitMovieIcon />
+      </Button>
+      <Button>
+        <NoticeIcon />
+      </Button>
+      <Button>
+        <ChannelIcon />
+      </Button>
+      <Button>1</Button>
     </header>
   );
 }

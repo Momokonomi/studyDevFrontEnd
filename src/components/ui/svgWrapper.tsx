@@ -10,12 +10,12 @@ export default function svgWrapper(
 ): React.ReactNode {
   return (
     <div
-      style={{
-        width: '100%',
-        height: '100%',
-        display: 'block',
-        fill: 'currentcolor',
-      }}
+    // style={{
+    //   width: '100%',
+    //   height: '100%',
+    //   display: 'block',
+    //   fill: 'currentcolor',
+    // }}
     >
       {callbk()}
     </div>
