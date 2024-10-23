@@ -1,3 +1,10 @@
 .btn {
   border-radius: 50%;
+  width: 10rem;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn:hover {
+  background-color: rgb(192, 192, 192);
 }
