@@ -1,8 +1,10 @@
 .btn {
   border-radius: 50%;
-  width: 10rem;
+  width: 5rem;
+  height: 5rem;
   background-color: transparent;
   border-color: transparent;
+  margin: 10px;
 }
 
 .btn:hover {
